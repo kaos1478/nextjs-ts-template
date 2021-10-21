@@ -53,4 +53,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - 🛂 **TypeScript** - JavaScript Superset
 
 
-![Panic](https://media.giphy.com/media/119HtgTy0cDjK8/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/119HtgTy0cDjK8/giphy.gif" alt="Stay Calm"/>
+</p>
