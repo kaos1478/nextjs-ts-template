@@ -8,17 +8,17 @@ export type ThemeType = typeof theme
 
 const theme = {
   colors: {
+    black: '#222222',
     primary: 'hotpink',
     secundary: '#AA8234',
     terciary: '#ABCDEF',
-    white: '#FFFDF9',
-    black: '#222222',
-    text: '#222222'
+    text: '#222222',
+    white: '#FFFDF9'
   },
   fontSizes: {
-    small: '1.125rem',
+    large: '2.25rem',
     medium: '1.5rem',
-    large: '2.25rem'
+    small: '1.125rem'
   },
   breakpoints
 }

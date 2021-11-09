@@ -1,7 +1,8 @@
-import Button from '@/components/atoms/Button'
-import Typography from '@/components/atoms/Typography'
 import type { NextPage } from 'next'
 import Head from 'next/head'
+
+import Button from '@/components/atoms/Button'
+import Typography from '@/components/atoms/Typography'
 
 const Home: NextPage = () => {
   return (

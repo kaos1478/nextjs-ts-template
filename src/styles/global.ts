@@ -7,9 +7,9 @@ const mq = facepaint(theme.breakpoints)
 
 export default createGlobalStyle<{ theme: ThemeType }>`
   * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 
   body {
@@ -17,10 +17,10 @@ export default createGlobalStyle<{ theme: ThemeType }>`
   }
 
   html, body, button, textarea, input {
-    ${mq({ 'font-size': ['87.5%', '87.5%', '93.75%'] })}
-    font-family: 'Roboto', sans-serif;
-    color: ${props => props.theme.colors.black};
     -webkit-font-smoothing: antialiased;
+    color: ${props => props.theme.colors.black};
+    font-family: 'Roboto', sans-serif;
+    ${mq({ 'font-size': ['87.5%', '87.5%', '93.75%'] })}
   }
 
   button {
@@ -28,7 +28,7 @@ export default createGlobalStyle<{ theme: ThemeType }>`
   }
 
   [disabled] {
-    opacity: 0.7;
     cursor: not-allowed;
+    opacity: 0.7;
   }
 `
