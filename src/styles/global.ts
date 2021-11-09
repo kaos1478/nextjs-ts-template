@@ -13,7 +13,7 @@ export default createGlobalStyle<{ theme: ThemeType }>`
   }
 
   body {
-    background-color: ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.colors.white};
   }
 
   html, body, button, textarea, input {

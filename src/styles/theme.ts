@@ -9,7 +9,7 @@ export type ThemeType = typeof theme
 const theme = {
   colors: {
     black: '#222222',
-    primary: 'hotpink',
+    primary: '#09A013',
     secundary: '#AA8234',
     terciary: '#ABCDEF',
     text: '#222222',
